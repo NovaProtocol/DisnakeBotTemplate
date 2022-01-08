@@ -35,6 +35,8 @@ bot = commands.Bot(
 for filename in os.listdir("cogs"):
     if filename.startswith("_"):
         continue
+    elif os.path.isfile(f"cogs/{filename}"):
+        continue
     elif "cog.py" in os.listdir(f"cogs/{filename}"):
         bot.load_extension(f"cogs.{filename}.cog")
         print(f"Loaded {filename} cog")
@@ -55,6 +57,7 @@ async def on_ready():
     print("Loaded extensions:")
     for cog in bot.extensions.keys():
         print(cog.split(".")[1])
+    print(bot.extensions)
 
 if __name__ == "__main__":
     bot.run(TOKEN)
