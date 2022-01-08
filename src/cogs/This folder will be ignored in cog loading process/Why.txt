@@ -1,0 +1,1 @@
+The folder needs to contain a cog.py in order to be a valid extension of the bot

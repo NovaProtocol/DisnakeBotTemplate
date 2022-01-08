@@ -1,0 +1,1 @@
+Folders with _ are seen as either system generated to a folder that is intentionally made with the purpose of being available to multiple other extensions.
