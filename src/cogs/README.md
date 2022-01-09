@@ -61,4 +61,4 @@
 
 2. Why didn't you just use one cog per group instead?
 
-   > To be honest, I was considering this too but the it's kinda annoying that you can't use some of the decorator like @commands.listener() since it's not meant to work like that.
+   > To be honest, I was considering this too but the it's kinda annoying that you can't use some of the decorator like @commands.listener() since it's not meant to work like that. If you found a way, feel free to post on the issues tab so I can have a look at it.
