@@ -57,7 +57,6 @@ async def on_ready():
     print("Loaded extensions:")
     for cog in bot.extensions.keys():
         print(cog.split(".")[1])
-    print(bot.extensions)
 
 if __name__ == "__main__":
     bot.run(TOKEN)
